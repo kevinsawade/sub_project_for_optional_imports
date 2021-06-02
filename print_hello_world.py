@@ -1,4 +1,7 @@
 import getpass
 
 def print_hello_world():
-  print(f"Hello {getpass.getuser()}")
+    return "Hello World"
+
+def print_hello_user():
+    return f"Hello {getpass.getuser()}"
