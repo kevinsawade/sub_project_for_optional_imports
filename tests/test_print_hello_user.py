@@ -1,5 +1,5 @@
 import unittest
-from sub_project import print_hello_user
+from import_sub_project import print_hello_user
 import getpass
 
 class TestPrintHelloUser(unittest.TestCase):
