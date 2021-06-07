@@ -10,7 +10,7 @@ class TestPrintHelloUser(unittest.TestCase):
 
 test_cases = (TestPrintHelloUser, )
 import doctest
-from sub_project import print_hello_user_module as phum
+from import_sub_project import phum
 doc_tests = (doctest.DocTestSuite(phum), )
 
 def load_tests(loader, tests, pattern):
